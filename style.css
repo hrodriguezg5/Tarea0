@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+body {
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.header-content {
+    margin: 5px;
+    height: 150px;
+    display: flex;
+    background-color: #00a3e8;
+    border-radius: 10px;
+}
+
+.blue-bar {
+    background-color: #00a3e8;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.white-bar {
+    background-color: #fff;
+    text-align: center;
+    flex: 1;
+}
+
+.user-icon {
+    font-size: 80px;
+    margin: 0 auto 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.text-content {
+    margin: 5px;
+    padding: 20px 50px 20px 50px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.text-content-info {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.category ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.category ul li img {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.table-content {
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid #e1e1e1;
+}
+
+th, td {
+    text-align: center;
+}
+
+.form-content {
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-content input,
+.form-content textarea {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #efefef;
+}
+.form-content button {
+    width: 60%;
+    padding: 10px;
+    background-color: #20c997;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form-content button:hover {
+    background-color: #17a589;
+}
+
+.social-content {
+    margin: 5px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: #00a3e8;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.social-icon i {
+    padding: 10px 10px 0px 10px;
+    font-size: 30px;
+}
+
+.footer-content {
+    margin: 5px;
+    padding: 20px;
+    background-color: #4997d0;
+    border-radius: 10px;
+    text-align: center;
+}
